@@ -14,7 +14,7 @@ steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
-    azureResourceManagerConnection: 'HESPINO_CONEXION'
+    azureResourceManagerConnection: 'HESPINO'
     subscriptionId: '5ca3af68-3320-4dd8-b030-0456eb0e2383'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'rg-lablinux-hespino-001'
